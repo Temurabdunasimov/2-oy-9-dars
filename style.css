@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    width: 100vw;
+    height: 100vh;
+    background-color: #16A085;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main-box{
+    width: 580px;
+    height: 500px;
+    background-color: #fff;
+    padding: 0 60px;
+    padding-top: 40px;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+.profile img{
+    width: 25px;
+    float: right;
+}
+
+h1{
+    margin-bottom: 15px;
+}
+
+p{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.main-block{
+    display: flex;
+}
+
+.price{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.bike{
+    width: 540px;
+}
+
